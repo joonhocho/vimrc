@@ -1,5 +1,5 @@
-let g:python2_host_prog = '/usr/local/bin/python'
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python2_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
 
 set termguicolors
 
@@ -79,7 +79,7 @@ call deoplete#custom#option('min_pattern_length', 2)
 
 let g:deoplete#enable_debug = 1
 let g:deoplete#enable_profile = 1
-call deoplete#enable_logging('DEBUG', $HOME.'/.vim/joonhocho/deoplete.log')
+call deoplete#enable_logging('DEBUG', $HOME.'/.vim/deoplete.log')
 
 let g:nvim_typescript#type_info_on_hold = 1
 let g:nvim_typescript#signature_complete = 1
